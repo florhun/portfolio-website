@@ -1,6 +1,6 @@
 // src/pages/About.jsx
 import React from 'react';
-import { Container, Typography, Box, Button } from '@mui/material';
+import { Container, Typography, Box} from '@mui/material';
 
 const About = () => {
     return (
