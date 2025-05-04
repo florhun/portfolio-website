@@ -16,7 +16,7 @@ import {
     useTheme,
 } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
-import { FaLinkedin, FaGithub, FaBehanceSquare, FaBars } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaBars } from "react-icons/fa";
 
 const Navbar = () => {
     const theme = useTheme();
@@ -100,7 +100,7 @@ const Navbar = () => {
                                     textShadow: textOutline,
                                 }}
                             >
-                                Berke Çakır
+                                Orhun Yeğenağa
                             </Typography>
                         </>
                     ) : (
@@ -117,7 +117,7 @@ const Navbar = () => {
                                     textShadow: textOutline,
                                 }}
                             >
-                                Berke Çakır
+                                Orhun Yeğenağa
                             </Typography>
                             <Button
                                 component={RouterLink}
@@ -162,7 +162,7 @@ const Navbar = () => {
                     <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                         <IconButton
                             component="a"
-                            href="https://github.com/canafarci"
+                            href="https://github.com/florhun"
                             color="inherit"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -171,21 +171,12 @@ const Navbar = () => {
                         </IconButton>
                         <IconButton
                             component="a"
-                            href="https://www.linkedin.com/in/berkecakir/"
+                            href="https://www.linkedin.com/in/orhunygng/"
                             color="inherit"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <FaLinkedin size="2rem" style={iconOutline} />
-                        </IconButton>
-                        <IconButton
-                            component="a"
-                            href="https://www.behance.net/berkecakir"
-                            color="inherit"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <FaBehanceSquare size="2rem" style={iconOutline} />
                         </IconButton>
                     </Box>
                 </Toolbar>

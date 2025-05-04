@@ -11,7 +11,7 @@ import {
     ImageListItem,
 } from "@mui/material";
 import { contentData } from "../data/contentData";
-import { useTheme, useMediaQuery } from "@mui/material";
+import { useTheme, useMediaQuery, Paper} from "@mui/material";
 
 
 const ProjectDetail = () => {
@@ -126,17 +126,17 @@ const ProjectDetail = () => {
                             GitHub
                         </Button>
                     )}
-                    {project.behance_link && (
+                    {project.web_link && (
                         <Button
                             variant="contained"
                             color="secondary"
                             component="a"
-                            href={project.behance_link}
+                            href={project.web_link}
                             target="_blank"
                             rel="noopener noreferrer"
                             sx={{ textTransform: "none", fontSize: "1rem" }}
                         >
-                            Behance
+                            Website
                         </Button>
                     )}
                 </Box>
@@ -263,6 +263,28 @@ const ProjectDetail = () => {
                         </Box>
                     </Box>
                 )}
+
+                {project.Machinations_Link && (
+                    <Box sx={{ padding: 2 }}>
+                    <Typography variant="h5" gutterBottom>
+                        Machinations Simulation
+                    </Typography>
+                    <Paper elevation={3} sx={{ height: '80vh', overflow: 'hidden' }}>
+                        <iframe
+                        src={project.Machinations_Link}
+                        style={{
+                            width: '100%',
+                            height: '100%',
+                            border: 'none',
+                            backgroundColor: 'transparent',
+                        }}
+                        title="Machinations Diagram"
+                        allowFullScreen
+                        />
+                    </Paper>
+                    </Box>
+                )
+                }
 
                 {/* Gallery Section using Material-UI's ImageList */}
                 {project.images && project.images.length > 0 && (

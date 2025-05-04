@@ -8,58 +8,58 @@ const Experience = () => {
             {/* Teek Games */}
             <Box sx={{ mt: 3 }}>
                 <Typography variant="h5" gutterBottom>
-                    Game Developer at Teek Games (2023 - Present)
+                    Product Manager at Teek Games (2024 - Present)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    At Teek Games in Istanbul, I serve as a Game Developer responsible for feature development and ongoing maintenance of a casual word puzzle mobile game ("Word Bubbles"). I leverage dependency injection frameworks to build modular, testable software and lead development efforts—including UI design, multiplayer prototyping, and performance optimization. My role also involves coordinating cross-functional teams as a Scrum Master.
+                    At Teek Games, I work as a Product Manager for a casual mobile title. I drive the product roadmap, facilitate cross-functional team alignment, and contribute to live ops and feature design. I also help improve game economy systems and player engagement through market research, analytics, and hypothesis-driven iterations.
                 </Typography>
             </Box>
 
             <Divider sx={{ my: 2 }} />
 
-            {/* Flowtart Studios */}
+            {/* MakeMake */}
             <Box sx={{ mt: 3 }}>
                 <Typography variant="h5" gutterBottom>
-                    Game Developer at Flowtart Studios (2021 - 2023)
+                    Product Manager / Game Producer at MakeMake (2022 - 2024)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    At Flowtart Studios in Ankara, I contributed to the development and production of over 30 games. I supported the maintenance and enhancement of a live mobile game with more than 10 million downloads ("City Fighter vs Street Gang"), focusing on rapid prototyping, performance optimization for low-end devices, and efficient version control. I collaborated closely with renowned publishers, implementing agile design patterns and technical improvements.
+                    I led feature development and project timelines for casual and hyper-casual mobile games. I managed internal teams of designers and developers, coordinated sprints, and optimized production pipelines using Agile methodologies and tools like Jira and ClickUp. I also contributed to game and level design efforts, leveraging player data to shape iterative improvements.
                 </Typography>
             </Box>
 
             <Divider sx={{ my: 2 }} />
 
-            {/* Diger Yapım A.Ş. */}
+            {/* VRLab Academy */}
             <Box sx={{ mt: 3 }}>
                 <Typography variant="h5" gutterBottom>
-                    Game Developer at Diger Yapım A.Ş. (2020 - 2021)
+                    Junior Unity Developer at VRLab Academy (2021)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    At Diger Yapım, I was part of a team that prototyped 15+ games. I implemented robust design patterns, optimized game performance, and created multiplayer experiences using Photon. My responsibilities also included integrating features such as leaderboards and in-app purchases while ensuring clean, maintainable code.
+                    At VRLab Academy, I supported the development of interactive educational simulations in Unity. I worked on scripting core interactions, UI development, and basic VR integrations. I also assisted with optimizing app performance and integrating Unity assets into VR pipelines.
                 </Typography>
             </Box>
 
             <Divider sx={{ my: 2 }} />
 
-            {/* Freelance Developer */}
+            {/* Root Games Co. */}
             <Box sx={{ mt: 3 }}>
                 <Typography variant="h5" gutterBottom>
-                    Freelance Developer (2019 - Present)
+                    Game Design Intern at Root Games Co. (2020)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    As a Freelance Developer, I have built mobile apps using React Native and developed multiple game prototypes with Unity. Projects have ranged from pseudorandom generation scripts for Adobe Photoshop to porting a VR experience ("Hollow Ocean") for Windows. My work underscores adaptability and a constant drive for innovation.
+                    During my internship at Root Games Co., I contributed to game design documentation, helped prototype mechanics in Unity, and collaborated with designers to refine gameplay loops. I gained hands-on experience with the design pipeline in a professional game development environment.
                 </Typography>
             </Box>
 
             <Divider sx={{ my: 2 }} />
 
-            {/* Freelance Architect */}
+            {/* Apollo Digital & Architecture */}
             <Box sx={{ mt: 3 }}>
                 <Typography variant="h5" gutterBottom>
-                    Freelance Architect (2018 - Present)
+                    Design Intern at Apollo Digital & Architecture (2019)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    Parallel to my game development career, I have executed architectural projects using Autodesk 3DSMax, Corona Renderer, and Adobe Photoshop. I create photorealistic façade and interior renders and apply computational design techniques with Grasshopper to craft innovative architectural solutions.
+                    I supported architectural design processes with concept modeling and presentation materials. I applied digital tools like 3ds Max and Adobe Creative Suite to visualize spatial ideas and communicated design solutions effectively within the team.
                 </Typography>
             </Box>
 
@@ -71,12 +71,8 @@ const Experience = () => {
                     Education
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    <strong>Bachelor’s Degree in Architecture</strong> – Middle Eastern Technical University (METU), Ankara, Turkey (2013-2019)
-                    Graduated with Honors, GPA: 3.30; participated in an Erasmus exchange program at Universitat Politècnica de València (GPA: 3.60).
-                </Typography>
-                <Typography variant="body1" paragraph>
-                    <strong>Master’s Degree in Architecture</strong> – Middle Eastern Technical University (METU), Ankara, Turkey
-                    GPA: 4.00. My master’s thesis focused on exploring the impacts of Urban Heat Islands using advanced simulation techniques with Python, TensorFlow, and parametric design in Grasshopper.
+                    <strong>Bachelor’s Degree in Digital Game Design</strong> – Istanbul Bilgi University (2017–2022)
+                    Courses focused on game development, systems design, Unity, and C#. My education was complemented by hands-on team projects and internships, which built my foundation in game production and product thinking.
                 </Typography>
             </Box>
         </Container>
