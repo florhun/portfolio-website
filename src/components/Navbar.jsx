@@ -17,7 +17,6 @@ import {
 } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
 import { FaLinkedin, FaGithub, FaBars } from "react-icons/fa";
-import AnimatedOutlineText from "./AnimatedOutlineText";
 
 const Navbar = () => {
     const theme = useTheme();
