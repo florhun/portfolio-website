@@ -61,7 +61,7 @@ const ProjectDetail = () => {
                     }}
                 >
                     <Typography
-                        variant="h2"
+                        variant="h5"
                         color="white"
                         gutterBottom
                         sx={{ fontWeight: "bold", fontSize: { xs: "2rem", md: "3rem" } }}
@@ -69,7 +69,7 @@ const ProjectDetail = () => {
                         {project.title}
                     </Typography>
                     {project.description && (
-                        <Typography variant="h6" color="white" sx={{ fontSize: { xs:"1rem", md:"1.5rem" } }}>
+                        <Typography variant="h3" color="white" sx={{ fontSize: { xs:"1rem", md:"1.5rem" } }}>
                             {project.description}
                         </Typography>
                     )}
@@ -172,31 +172,31 @@ const ProjectDetail = () => {
                 <Grid container spacing={2} sx={{ mb: 4 }}>
                     {project.skills && (
                         <Grid item xs={12} sm={6}>
-                            <Typography variant="h6">Skills</Typography>
+                            <Typography variant="h5">Skills</Typography>
                             <Typography variant="body1">{project.skills}</Typography>
                         </Grid>
                     )}
                     {project.genre && (
                         <Grid item xs={12} sm={6}>
-                            <Typography variant="h6">Genre</Typography>
+                            <Typography variant="h5">Genre</Typography>
                             <Typography variant="body1">{project.genre}</Typography>
                         </Grid>
                     )}
                     {project.job_type && (
                         <Grid item xs={12} sm={6}>
-                            <Typography variant="h6">Job Type</Typography>
+                            <Typography variant="h5">Job Type</Typography>
                             <Typography variant="body1">{project.job_type}</Typography>
                         </Grid>
                     )}
                     {project.role && (
                         <Grid item xs={12} sm={6}>
-                            <Typography variant="h6">Role</Typography>
+                            <Typography variant="h5">Role</Typography>
                             <Typography variant="body1">{project.role}</Typography>
                         </Grid>
                     )}
                     {project.location && (
                         <Grid item xs={12}>
-                            <Typography variant="h6">Location</Typography>
+                            <Typography variant="h5">Location</Typography>
                             <Typography variant="body1">{project.location}</Typography>
                         </Grid>
                     )}

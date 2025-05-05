@@ -3,7 +3,13 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
     typography: {
-        fontFamily: "'Montserrat', sans-serif",
+        fontFamily: "'Atkinson Hyperlegible Mono, Doto, Montserrat', sans-serif",
+        h5: {
+            fontFamily: 'Atkinson Hyperlegible Mono',
+        },
+        h1: {
+            fontFamily: 'Doto',
+        }
     },
     palette: {
         primary: {
@@ -14,5 +20,4 @@ const theme = createTheme({
         },
     },
 });
-
 export default theme;

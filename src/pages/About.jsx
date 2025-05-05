@@ -1,49 +1,35 @@
 // src/pages/About.jsx
 import React from 'react';
-import { Container, Typography, Box} from '@mui/material';
+import { Container, Typography, Box, Link } from '@mui/material';
 
 const About = () => {
     return (
         <Container sx={{ mt: 4, mb: 4 }}>
             <Box>
                 <Typography variant="body1" paragraph>
-                    I’m <strong>İsmet Berke Çakır</strong>, a versatile game developer and architect.
-                    With over 4 years of Unity3D development experience, I combine a strong technical
-                    background with a creative approach to design and interactive experiences. I am
-                    passionate about software design, rapid prototyping, and performance optimization—
-                    always striving to produce maintainable, efficient, and engaging solutions.
+                    I’m <strong>Orhun Yeğenağa</strong>, a passionate and versatile multidisciplinary designer specializing in <strong>Digital Game Design</strong>. With hands-on experience in the production of hyper-casual, hybrid casual, and blockchain games, I bring a unique blend of technical proficiency, design sensibility, and team leadership to the game development process.
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    Throughout my career, I have worked at renowned companies such as Teek Games,
-                    Flowtart Studios Yazılım Limited Şirketi, and Diger Yapım A.Ş. In these roles,
-                    I contributed to feature development, multiplayer prototyping, UI design, and
-                    maintenance for hit mobile games. My freelance work spans mobile app development,
-                    game development, and architectural design, allowing me to merge cutting‐edge
-                    technology with design principles.
+                    My career includes roles at <strong>Teek Games</strong> and <strong>MakeMake</strong>, where I led cross-functional teams and managed end-to-end production cycles for various mobile game projects. I was responsible for defining feature roadmaps, aligning design and development pipelines, maintaining publisher communication, and optimizing outcomes through agile methodologies. One of my proudest achievements was the successful launch of <em>Mega Harvester</em>, a hybrid-casual simulation game which I helped develop from concept to release.
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    I am proficient in a range of languages and tools including C#, Python, and
-                    JavaScript, and I regularly use software like Autodesk 3DSMax, Corona Renderer,
-                    and Adobe Photoshop. My experience also extends to agile development practices,
-                    technical documentation, and the use of dependency injection frameworks (such as
-                    Zenject and VContainer) to create modular and testable code.
+                    Previously, I also worked as a Unity Developer and Game Designer at VRLab Academy and Root Games Co., focusing on prototyping, user experience, and interactive systems. I am proficient in Unity3D and experienced with project management tools like ClickUp and Asana for sprint planning, roadmap creation, and team coordination. I’m also skilled in tools such as Adobe Photoshop and Premiere Pro.
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    Academically, I hold a Bachelor’s degree in Architecture from Middle Eastern
-                    Technical University (METU) where I graduated with honors (GPA 3.30) and
-                    participated in the Erasmus Exchange Program at Universitat Politècnica de
-                    València (GPA 3.60). I also completed a Master’s degree in Architecture at METU
-                    with a GPA of 4.00, focusing on advanced simulation methods for urban heat island
-                    analysis using Python, TensorFlow, and generative adversarial networks.
+                    I hold a <strong>Bachelor’s degree in Digital Game Design</strong> from Istanbul Bilgi University, where I built a strong foundation in game systems, storytelling, and production workflows. My academic and professional journey reflects a constant pursuit of meaningful, player-focused experiences.
                 </Typography>
-
-                {/* Contact Section */}
-                <Box sx={{ mt: 3, display: 'flex', alignItems: 'center', gap: 2 }}>
-                    <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
-                        Phone: +90 506 934 84 39
-                    </Typography>
-                    <Typography variant="body1" sx={{ fontWeight: 'bold' }}>
-                        Email: ismetberke@gmail.com
+                <Typography variant="body1" paragraph>
+                    Outside of game development, I’ve contributed to cultural and social initiatives. I’ve worked as a freelance production staff member for events organized by İKSV (Istanbul Foundation for Culture and Arts)—including the Istanbul Film, Theatre, and Music Festivals—and volunteered with the Istanbul LGBTİ+ Pride Week committee to support community-based and human rights projects.
+                </Typography>
+                <Typography variant="body1" paragraph>
+                    I am a native Turkish speaker and fluent in English, with strong written and verbal communication skills. I’m open to new opportunities where I can continue to grow as a <strong>Game Designer / Game Producer</strong>, collaborate with dynamic teams, and help shape engaging digital experiences.
+                </Typography>
+                <Box sx={{ mt: 3 }}>
+                    <Typography variant="body1">
+                        Contact:{' '}
+                        <Link href="mailto:orhunyegenaga@gmail.com" underline="hover">
+                            orhunyegenaga@gmail.com
+                        </Link>
                     </Typography>
                 </Box>
             </Box>

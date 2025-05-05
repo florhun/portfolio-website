@@ -17,6 +17,7 @@ import {
 } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
 import { FaLinkedin, FaGithub, FaBars } from "react-icons/fa";
+import AnimatedOutlineText from "./AnimatedOutlineText";
 
 const Navbar = () => {
     const theme = useTheme();
@@ -39,8 +40,8 @@ const Navbar = () => {
 
     // Drawer content for mobile internal navigation
     const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{ textAlign: "center", pt: 5 }}>
-            <Typography variant="h6" sx={{ my: 2, fontWeight: "bold" }}>
+        <Box onClick={handleDrawerToggle} sx={{ textAlign: "center", pt: 0 }}>
+            <Typography variant="h1" sx={{ my: 0, fontWeight: "bold" }}>
 
             </Typography>
             <List>
@@ -53,7 +54,7 @@ const Navbar = () => {
                         <ListItemButton
                             component={RouterLink}
                             to={item.path}
-                            sx={{ textAlign: "center" }}
+                            sx={{ textAlign: "left" }}
                         >
                             <ListItemText primary={item.label} />
                         </ListItemButton>
@@ -70,7 +71,7 @@ const Navbar = () => {
                 color="transparent"
                 elevation={0}
                 sx={{
-                    backdropFilter: "blur(10px)",
+                    backdropFilter: "blur(5px)",
                     zIndex: (theme) => theme.zIndex.drawer + 1,
                 }}
             >
@@ -88,7 +89,6 @@ const Navbar = () => {
                                 <FaBars size="1.8rem" style={iconOutline} />
                             </IconButton>
                             <Typography
-                                variant="h6"
                                 component={RouterLink}
                                 to="/"
                                 sx={{
@@ -104,16 +104,16 @@ const Navbar = () => {
                             </Typography>
                         </>
                     ) : (
-                        <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+                        <Box sx={{ display: "flex", alignItems: "bottom", gap: 2 }}>
                             <Typography
-                                variant="h6"
+                            variant="h5"
                                 component={RouterLink}
                                 to="/"
                                 sx={{
                                     textDecoration: "none",
-                                    color: "inherit",
-                                    fontWeight: "bold",
-                                    fontSize: "1.8rem",
+                                    color: "black",
+                                    fontWeight: "100",
+                                    fontSize: "2rem",
                                     textShadow: textOutline,
                                 }}
                             >
