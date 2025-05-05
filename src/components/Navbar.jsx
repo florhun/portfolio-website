@@ -111,7 +111,8 @@ const Navbar = () => {
                                 sx={{
                                     textDecoration: "none",
                                     color: "black",
-                                    fontWeight: "100",
+                                    fontWeight: "600",
+                                    fontVariationSettings: '"wdth" 80',
                                     fontSize: "2rem",
                                     textShadow: textOutline,
                                 }}

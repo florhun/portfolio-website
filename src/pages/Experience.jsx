@@ -7,7 +7,7 @@ const Experience = () => {
         <Container sx={{ mt: 4, mb: 4 }}>
             {/* Teek Games */}
             <Box sx={{ mt: 3 }}>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     Product Manager at Teek Games (2024 - Present)
                 </Typography>
                 <Typography variant="body1" paragraph>
@@ -19,7 +19,7 @@ const Experience = () => {
 
             {/* MakeMake */}
             <Box sx={{ mt: 3 }}>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     Product Manager / Game Producer at MakeMake (2022 - 2024)
                 </Typography>
                 <Typography variant="body1" paragraph>
@@ -31,7 +31,7 @@ const Experience = () => {
 
             {/* VRLab Academy */}
             <Box sx={{ mt: 3 }}>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     Junior Unity Developer at VRLab Academy (2021)
                 </Typography>
                 <Typography variant="body1" paragraph>
@@ -43,7 +43,7 @@ const Experience = () => {
 
             {/* Root Games Co. */}
             <Box sx={{ mt: 3 }}>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     Game Design Intern at Root Games Co. (2020)
                 </Typography>
                 <Typography variant="body1" paragraph>
@@ -55,7 +55,7 @@ const Experience = () => {
 
             {/* Apollo Digital & Architecture */}
             <Box sx={{ mt: 3 }}>
-                <Typography variant="h5" gutterBottom>
+                <Typography variant="h6" gutterBottom>
                     Design Intern at Apollo Digital & Architecture (2019)
                 </Typography>
                 <Typography variant="body1" paragraph>
@@ -67,7 +67,7 @@ const Experience = () => {
 
             {/* Education */}
             <Box sx={{ mt: 3 }}>
-                <Typography variant="h4" gutterBottom>
+                <Typography variant="h5" gutterBottom>
                     Education
                 </Typography>
                 <Typography variant="body1" paragraph>
