@@ -59,7 +59,7 @@ const Experience = () => {
                     Design Intern at Apollo Digital & Architecture (2019)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    I had to chance to gain experience in post-process effects using Unreal Engine during the Bristol Hotel VR experience project.
+                    I had the chance to gain experience in post-process effects using Unreal Engine during the Bristol Hotel VR experience project.
                 </Typography>
             </Box>
 

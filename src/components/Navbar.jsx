@@ -70,7 +70,7 @@ const Navbar = () => {
                 color="transparent"
                 elevation={0}
                 sx={{
-                    backdropFilter: "blur(5px)",
+                    backdropFilter: "blur(3px)",
                     zIndex: (theme) => theme.zIndex.drawer + 1,
                 }}
             >
