@@ -11,7 +11,7 @@ const Experience = () => {
                     Product Manager at Teek Games (2024 - Present)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    At Teek Games, I work as a Product Manager for a casual mobile title. I drive the product roadmap, facilitate cross-functional team alignment, and contribute to live ops and feature design. I also help improve game economy systems and player engagement through market research, analytics, and hypothesis-driven iterations.
+                    At Teek Games, I work as a Product Manager for hypercasual mobile game titles. I drive the product roadmap, facilitate team alignment, and contribute to feature design. I also help creating market content for products such as creatives, visuals and sounds.
                 </Typography>
             </Box>
 
@@ -23,7 +23,7 @@ const Experience = () => {
                     Product Manager / Game Producer at MakeMake (2022 - 2024)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    I led feature development and project timelines for casual and hyper-casual mobile games. I managed internal teams of designers and developers, coordinated sprints, and optimized production pipelines using Agile methodologies and tools like Jira and ClickUp. I also contributed to game and level design efforts, leveraging player data to shape iterative improvements.
+                    I led feature development and project timelines for casual and hyper-casual mobile games. I managed internal and external teams of designers and developers, coordinated sprints, and optimized production pipelines using Agile methodologies and tools like Jira and ClickUp. I also contributed to game and level design efforts, leveraging player data to shape iterative improvements.
                 </Typography>
             </Box>
 
@@ -35,7 +35,7 @@ const Experience = () => {
                     Junior Unity Developer at VRLab Academy (2021)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    At VRLab Academy, I supported the development of interactive educational simulations in Unity. I worked on scripting core interactions, UI development, and basic VR integrations. I also assisted with optimizing app performance and integrating Unity assets into VR pipelines.
+                    At VRLab Academy, I supported the development of interactive educational simulations in Unity. I worked on scripting core interactions, UI development, and basic user data integrations.
                 </Typography>
             </Box>
 
@@ -59,7 +59,7 @@ const Experience = () => {
                     Design Intern at Apollo Digital & Architecture (2019)
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    I supported architectural design processes with concept modeling and presentation materials. I applied digital tools like 3ds Max and Adobe Creative Suite to visualize spatial ideas and communicated design solutions effectively within the team.
+                    I had to chance to gain experience in post-process effects using Unreal Engine during the Bristol Hotel VR experience project.
                 </Typography>
             </Box>
 
@@ -71,7 +71,7 @@ const Experience = () => {
                     Education
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    <strong>Bachelor’s Degree in Digital Game Design</strong> – Istanbul Bilgi University (2017–2022)
+                    <strong>Bachelor’s Degree in Digital Game Design</strong> – Istanbul Bilgi University (2015–2020)
                     Courses focused on game development, systems design, Unity, and C#. My education was complemented by hands-on team projects and internships, which built my foundation in game production and product thinking.
                 </Typography>
             </Box>
