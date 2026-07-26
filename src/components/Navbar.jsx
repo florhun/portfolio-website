@@ -67,7 +67,7 @@ const Navbar = () => {
         <>
             <AppBar
                 position="fixed"
-                color="transparent"
+                color="inherit"
                 elevation={0}
                 sx={{
                     backdropFilter: "blur(3px)",
