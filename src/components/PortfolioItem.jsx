@@ -21,15 +21,19 @@ const PortfolioItem = ({ project, id }) => {
                 width: "100%",
                 textDecoration: "none",
                 color: "inherit",
-                border: "1px solid rgba(0,0,0,0.1)",
+                border: "1px solid",
+                borderColor: "divider",
                 borderRadius: "12px",
                 overflow: "hidden",
                 bgcolor: "background.paper",
                 transition: "transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease",
                 "&:hover": {
                     transform: "translateY(-4px)",
-                    borderColor: "rgba(0,0,0,0.25)",
-                    boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+                    borderColor: "text.secondary",
+                    boxShadow: (theme) =>
+                        theme.palette.mode === "light"
+                            ? "0 8px 20px rgba(0,0,0,0.08)"
+                            : "0 8px 20px rgba(0,0,0,0.4)",
                 },
             }}
         >
@@ -64,7 +68,7 @@ const PortfolioItem = ({ project, id }) => {
                         sx={{
                             fontFamily: "Noto Sans",
                             fontSize: "0.75rem",
-                            bgcolor: "rgba(0,0,0,0.06)",
+                            bgcolor: "action.hover",
                         }}
                     />
                 )}

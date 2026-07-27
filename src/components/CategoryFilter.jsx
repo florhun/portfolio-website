@@ -31,13 +31,13 @@ const CategoryFilter = ({ categories, active, onChange }) => {
                         sx={{
                             fontFamily: "Noto Sans",
                             fontWeight: isActive ? 600 : 400,
-                            bgcolor: isActive ? "black" : "transparent",
-                            color: isActive ? "white" : "text.secondary",
+                            bgcolor: isActive ? "text.primary" : "transparent",
+                            color: isActive ? "background.default" : "text.secondary",
                             border: "1px solid",
-                            borderColor: isActive ? "black" : "rgba(0,0,0,0.2)",
+                            borderColor: isActive ? "text.primary" : "divider",
                             transition: "background-color 0.15s ease, color 0.15s ease",
                             "&:hover": {
-                                bgcolor: isActive ? "black" : "rgba(0,0,0,0.05)",
+                                bgcolor: isActive ? "text.primary" : "action.hover",
                             },
                         }}
                     />

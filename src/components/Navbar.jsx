@@ -16,28 +16,27 @@ import {
     useTheme,
 } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
-import { FaLinkedin, FaGithub, FaBars } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaBars, FaSun, FaMoon } from "react-icons/fa";
+import { useColorMode } from "../context/ThemeContext";
 
 const Navbar = () => {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+    const { mode, toggleColorMode } = useColorMode();
 
     const [drawerOpen, setDrawerOpen] = useState(false);
     const handleDrawerToggle = () => {
         setDrawerOpen((prev) => !prev);
     };
 
-    // Solid outline style for text
-    const textOutline =
-        "-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white";
+    // Outline matches the page background so text stays legible in both modes
+    const outlineColor = theme.palette.background.default;
+    const textOutline = `-1px -1px 0 ${outlineColor}, 1px -1px 0 ${outlineColor}, -1px 1px 0 ${outlineColor}, 1px 1px 0 ${outlineColor}`;
 
-    // Filter-based outline for SVG icons
     const iconOutline = {
-        filter:
-            "drop-shadow(1px 1px 1px white) drop-shadow(-1px -1px 1px white) drop-shadow(-1px 1px 1px white) drop-shadow(1px -1px 1px white)",
+        filter: `drop-shadow(1px 1px 1px ${outlineColor}) drop-shadow(-1px -1px 1px ${outlineColor}) drop-shadow(-1px 1px 1px ${outlineColor}) drop-shadow(1px -1px 1px ${outlineColor})`,
     };
 
-    // Drawer content for mobile internal navigation
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: "center", pt: 0 }}>
             <Typography variant="h1" sx={{ my: 0, fontWeight: "bold" }}>
@@ -67,7 +66,7 @@ const Navbar = () => {
         <>
             <AppBar
                 position="fixed"
-                color="inherit"
+                color="transparent"
                 elevation={0}
                 sx={{
                     backdropFilter: "blur(3px)",
@@ -75,7 +74,6 @@ const Navbar = () => {
                 }}
             >
                 <Toolbar sx={{ justifyContent: "space-between" }}>
-                    {/* Left Side */}
                     {isMobile ? (
                         <>
                             <IconButton
@@ -110,7 +108,7 @@ const Navbar = () => {
                                 to="/"
                                 sx={{
                                     textDecoration: "none",
-                                    color: "black",
+                                    color: "text.primary",
                                     fontWeight: "600",
                                     fontVariationSettings: '"wdth" 80',
                                     fontSize: "2rem",
@@ -158,8 +156,18 @@ const Navbar = () => {
                         </Box>
                     )}
 
-                    {/* Right Side: External Links */}
                     <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                        <IconButton
+                            onClick={toggleColorMode}
+                            color="inherit"
+                            aria-label={mode === "light" ? "switch to dark mode" : "switch to light mode"}
+                        >
+                            {mode === "light" ? (
+                                <FaMoon size="1.4rem" style={iconOutline} />
+                            ) : (
+                                <FaSun size="1.4rem" style={iconOutline} />
+                            )}
+                        </IconButton>
                         <IconButton
                             component="a"
                             href="https://github.com/florhun"
@@ -182,7 +190,6 @@ const Navbar = () => {
                 </Toolbar>
             </AppBar>
 
-            {/* Drawer for mobile internal navigation */}
             <Box component="nav">
                 <Drawer
                     variant="temporary"
