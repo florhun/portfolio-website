@@ -6,24 +6,44 @@ const About = () => {
     return (
         <Container sx={{ mt: 4, mb: 4 }}>
             <Box>
-                <Typography variant="body1" paragraph>
-                    I’m <strong>Orhun Yeğenağa</strong>, a passionate and versatile multidisciplinary designer specializing in <strong>Digital Game Design</strong>. With hands-on experience in the production of hyper-casual, hybrid casual, and blockchain games, I bring a unique blend of technical proficiency, design sensibility, and team leadership to the game development process.
+                <Typography variant="h4" component="h1" gutterBottom>
+                    Hi, I’m Orhun Yeğenağa.
                 </Typography>
-                <Typography variant="body1" paragraph>
-                    My career includes roles at <strong>Teek Games</strong> and <strong>MakeMake</strong>, where I led cross-functional teams and managed end-to-end production cycles for various mobile game projects. I was responsible for defining feature roadmaps, aligning design and development pipelines, maintaining publisher communication, and optimizing outcomes through agile methodologies. One of my proudest achievements was the successful launch of <em>Mega Harvester</em>, a hybrid-casual simulation game which I helped develop from concept to release.
+                <Typography variant="h6" color="text.secondary" paragraph>
+                    <strong>Product Manager & Game Designer</strong>
                 </Typography>
+
                 <Typography variant="body1" paragraph>
-                    Previously, I also worked as a Unity Developer and Game Designer at VRLab Academy and Root Games Co., focusing on prototyping, user experience, and interactive systems. I am proficient in Unity3D and experienced with project management tools like ClickUp and Asana for sprint planning, roadmap creation, and team coordination. I’m also skilled in tools such as Adobe Photoshop and Premiere Pro.
+                    I am a multidisciplinary game developer with over five years of experience shaping engaging mobile titles. I specialize in bridging the gap between creative design and data-driven production, transforming raw concepts into scalable, player-focused experiences.
                 </Typography>
+
                 <Typography variant="body1" paragraph>
-                    I hold a <strong>Bachelor’s degree in Digital Game Design</strong> from Istanbul Bilgi University, where I built a strong foundation in game systems, storytelling, and production workflows. My academic and professional journey reflects a constant pursuit of meaningful, player-focused experiences.
+                    My expertise spans the mobile gaming spectrum—from hybrid-casual and puzzle to FPS and blockchain games. As a Product and Project Manager, I have led cross-functional teams at studios like Teek Games and MakeMake. I manage end-to-end production cycles, align design with development pipelines, and optimize products through agile methodologies to ensure we hit our milestones and publisher goals.
                 </Typography>
+
+                <Typography variant="h5" component="h2" gutterBottom sx={{ mt: 3 }}>
+                    What I Do Best
+                </Typography>
+                <Typography variant="body1" component="div">
+                    <ul>
+                        <li><strong>Production & Strategy:</strong> Defining feature roadmaps, maintaining clear publisher communication, and coordinating agile sprints using tools like ClickUp and Asana.</li>
+                        <li><strong>Monetization & UX Optimization:</strong> Analyzing user journeys to reduce early-session friction and structuring sustainable monetization models. I actively benchmark market trends and UI updates using platforms like Sensor Tower to keep core loops competitive.</li>
+                        <li><strong>Game Design & Prototyping:</strong> Crafting compelling mechanics and interactive systems. I built my technical foundation as a Unity Developer, supported by a Bachelor’s degree in Digital Game Design from Istanbul Bilgi University.</li>
+                    </ul>
+                </Typography>
+
+                <Typography variant="h5" component="h2" gutterBottom sx={{ mt: 3 }}>
+                    Beyond the Screen
+                </Typography>
+
                 <Typography variant="body1" paragraph>
-                    Outside of game development, I’ve contributed to cultural and social initiatives. I’ve worked as a freelance production staff member for events organized by İKSV (Istanbul Foundation for Culture and Arts)—including the Istanbul Film, Theatre, and Music Festivals—and volunteered with the Istanbul LGBTİ+ Pride Week committee to support community-based and human rights projects.
+                    My drive for creating meaningful experiences extends beyond game development. I have contributed to cultural initiatives as freelance production staff for <strong>İKSV</strong> (Istanbul Foundation for Culture and Arts) across their film, theatre, and music festivals. I also proudly volunteered with the <strong>Istanbul LGBTİ+ Pride Week</strong> committee between 2016-2019 to support community-based human rights projects.
                 </Typography>
+
                 <Typography variant="body1" paragraph>
-                    I am a native Turkish speaker and fluent in English, with strong written and verbal communication skills. I’m open to new opportunities where I can continue to grow as a <strong>Game Designer / Game Producer</strong>, collaborate with dynamic teams, and help shape engaging digital experiences.
+                    I am always open to new opportunities to collaborate with dynamic teams and shape the next generation of digital experiences. <strong>Let’s build something great together.</strong>
                 </Typography>
+
                 <Box sx={{ mt: 3 }}>
                     <Typography variant="body1">
                         Contact:{' '}
