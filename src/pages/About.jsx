@@ -18,7 +18,7 @@ const About = () => {
                 </Typography>
 
                 <Typography variant="body1" paragraph>
-                    My expertise spans the mobile gaming spectrum—from hybrid-casual and puzzle to FPS and blockchain games. As a Product and Project Manager, I have led cross-functional teams at studios like Teek Games and MakeMake. I manage end-to-end production cycles, align design with development pipelines, and optimize products through agile methodologies to ensure we hit our milestones and publisher goals.
+                    My expertise spans the mobile gaming spectrum, from hybrid-casual and puzzle to FPS and blockchain games. As a Product and Project Manager, I have led cross-functional teams at studios like Teek Games and MakeMake. I manage end-to-end production cycles, align design with development pipelines, and optimize products through agile methodologies to ensure we hit our milestones and publisher goals.
                 </Typography>
 
                 <Typography variant="h5" component="h2" gutterBottom sx={{ mt: 3 }}>
