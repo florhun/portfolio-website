@@ -5,10 +5,22 @@ import { Container, Typography, Box, Divider } from '@mui/material';
 const Experience = () => {
     return (
         <Container sx={{ mt: 4, mb: 4 }}>
+            {/* Gaming Academy */}
+            <Box sx={{ mt: 3 }}>
+                <Typography variant="h6" gutterBottom>
+                    Product Manager at Gaming Academy (2025 - 2026)
+                </Typography>
+                <Typography variant="body1" paragraph>
+                    I worked as an Product Manager for the Incubation Program partnered with Voodoo. Leading 19 teams for 4 months periods, through concept design, core loop refinement, and feature prioritization. Successfully accelerated 5 top-performing teams into elite coaching stages by optimizing their early retention and CPI validation strategies.
+                </Typography>
+            </Box>
+
+            <Divider sx={{ my: 2 }} />
+
             {/* Teek Games */}
             <Box sx={{ mt: 3 }}>
                 <Typography variant="h6" gutterBottom>
-                    Product Manager at Teek Games (2024 - Present)
+                    Product Manager at Teek Games (2024 - 2025)
                 </Typography>
                 <Typography variant="body1" paragraph>
                     At Teek Games, I work as a Product Manager for hypercasual mobile game titles. I drive the product roadmap, facilitate team alignment, and contribute to feature design. I also help creating market content for products such as creatives, visuals and sounds.
